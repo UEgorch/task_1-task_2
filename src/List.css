@@ -1,0 +1,66 @@
+.list {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .list-header h2 {
+    font-size: 18px;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .list-header button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .list-header button:hover {
+    background: #cc0000;
+  }
+  
+  .task-list {
+    min-height: 100px;
+  }
+  
+  .task {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-overdue {
+    background: #ffcccc;
+  }
+  
+  .task button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background: #0056b3;
+  }
+  
